@@ -1,0 +1,44 @@
+{
+  "name": "searchium-app",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "storybook": "start-storybook -p 6006 --ci",
+    "build-storybook": "build-storybook"
+  },
+  "dependencies": {
+    "@chakra-ui/icons": "^2.0.2",
+    "@chakra-ui/react": "^2.2.1",
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "axios": "^0.27.2",
+    "feedback-widget": "ssh:git@github.com:phenrique7/feedback-widget.git#main",
+    "framer-motion": "^6.3.11",
+    "react": "^18.2.0",
+    "react-div-100vh": "^0.7.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.32.1",
+    "react-query": "^3.39.1",
+    "react-router-dom": "6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.10",
+    "@storybook/addon-actions": "^6.5.9",
+    "@storybook/addon-essentials": "^6.5.9",
+    "@storybook/addon-links": "^6.5.9",
+    "@storybook/builder-vite": "^0.1.36",
+    "@storybook/react": "^6.5.9",
+    "@storybook/testing-library": "^0.0.13",
+    "@types/node": "^17.0.21",
+    "@types/react": "^18.0.14",
+    "@types/react-dom": "^18.0.5",
+    "@vitejs/plugin-react": "^1.3.2",
+    "babel-loader": "^8.2.5",
+    "prettier": "^2.7.1",
+    "typescript": "^4.7.3",
+    "vite": "^2.9.12"
+  }
+}
