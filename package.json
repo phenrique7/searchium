@@ -15,7 +15,6 @@
     "@emotion/react": "^11.9.3",
     "@emotion/styled": "^11.9.3",
     "axios": "^0.27.2",
-    "feedback-widget": "ssh:git@github.com:phenrique7/feedback-widget.git#main",
     "framer-motion": "^6.3.11",
     "react": "^18.2.0",
     "react-div-100vh": "^0.7.0",

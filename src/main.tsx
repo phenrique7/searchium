@@ -1,4 +1,3 @@
-import 'feedback-widget';
 import * as React from 'react';
 import * as ReactDOM from 'react-dom/client';
 import { ChakraProvider } from '@chakra-ui/react';

@@ -53,17 +53,15 @@ export function Layout() {
           >
             <LogoIcon w={{ base: 40, md: 48 }} />
             <HStack spacing={{ base: 3, md: 5 }}>
-              <feedback-widget>
-                <Button
-                  size="sm"
-                  variant="outline"
-                  position="relative"
-                  id="feedback-button"
-                  right={{ base: 0, md: 3 }}
-                >
-                  Feedback
-                </Button>
-              </feedback-widget>
+              <Button
+                size="sm"
+                variant="outline"
+                position="relative"
+                id="feedback-button"
+                right={{ base: 0, md: 3 }}
+              >
+                Feedback
+              </Button>
               <Divider
                 orientation="vertical"
                 display={{ base: 'none', md: 'inline-block' }}
