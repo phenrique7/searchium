@@ -15,5 +15,5 @@ const Template: ComponentStory<TStory> = (args) => <Error {...args} />;
 export const Default = Template.bind({});
 
 Default.args = {
-  children: `We apologize for the inconvenience, but there was an error when bringing the information`,
+  children: `Sorry for that! We could not bring the requested information`,
 };

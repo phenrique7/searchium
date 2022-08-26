@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { InfoIcon } from '@chakra-ui/icons'
+import { InfoIcon } from '@chakra-ui/icons';
 import { Box, BoxProps, Center, Heading, Text } from '@chakra-ui/react';
 
 type ErrorProps = BoxProps;
@@ -10,7 +10,7 @@ export function Error(props: ErrorProps) {
   return (
     <Box {...otherProps}>
       <Center>
-        <InfoIcon color="red.medium" boxSize="2rem" />
+        <InfoIcon color="red.400" boxSize="2rem" />
       </Center>
       <Heading mt={2} as="h3" fontSize="xl" fontWeight={600} textAlign="center">
         Oops! Something went wrong{' '}
