@@ -5,7 +5,7 @@ export const theme = extendTheme({
     global: {
       html: {
         overflowX: 'hidden',
-        fontFamily: "'Open Sans', sans-serif",
+        fontFamily: 'Inter, sans-serif',
       },
       body: {
         color: 'gray.900',
