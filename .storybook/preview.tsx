@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { MemoryRouter } from 'react-router-dom';
 import { StoryContext } from '@storybook/react';
-import { ChakraProvider } from '@chakra-ui/react';
+import { Box, ChakraProvider } from '@chakra-ui/react';
 import { ReactQueryDevtools } from 'react-query/devtools';
 import { QueryClient, QueryClientProvider } from 'react-query';
 import { theme } from '@/styles/theme';
@@ -28,7 +28,9 @@ export const decorators = [
       <ChakraProvider theme={theme}>
         <QueryClientProvider client={queryClient}>
           <MemoryRouter initialEntries={contextArgs.routeEntries ?? ['/']}>
-            <Story />
+            <Box p={context.componentId.includes('components') ? 4 : 0}>
+              <Story />
+            </Box>
           </MemoryRouter>
           {__STORYBOOK__ ? <ReactQueryDevtools initialIsOpen={false} /> : null}
         </QueryClientProvider>
